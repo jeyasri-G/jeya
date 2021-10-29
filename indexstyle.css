@@ -1,0 +1,41 @@
+.container{
+    width:70%;
+    overflow:hidden;
+    background:skyblue;
+    margin:20px auto;
+    padding :20px;
+}
+
+.card{
+    width:100%;
+    background-color: #3d3535;
+    height: 300px;
+    float:left;
+    list-style: none;
+    margin:40px 40px 0px 55px;
+}
+#as{
+    width:70%;
+    padding: 10px;
+    
+}
+.card-header{
+    background-color: black;
+    color:white;
+    line-height: 50px;
+    text-align: center;
+
+}
+.button,.des,.region,.countrycode,.image{
+    text-align: center;
+
+}
+.row{
+    margin:0 auto;
+    max-width:1000px;
+    display: inline;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    gap :20px;
+    font-family: sans-serif;
+}
